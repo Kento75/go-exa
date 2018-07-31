@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d432965a-8c6c-44ae-b8d0-dda11a673a3b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sec2/arithmetic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec2/arithmetic_type.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec2/compare.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bool.go" beforeDir="false" afterPath="$PROJECT_DIR$/sec2/bool.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/convert.go" beforeDir="false" afterPath="$PROJECT_DIR$/sec2/convert.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number.go" beforeDir="false" afterPath="$PROJECT_DIR$/sec2/number.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string.go" beforeDir="false" afterPath="$PROJECT_DIR$/sec2/string.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_count.go" beforeDir="false" afterPath="$PROJECT_DIR$/sec2/string_count.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_len.go" beforeDir="false" afterPath="$PROJECT_DIR$/sec2/string_len.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/sec2/type.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec2/condition.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec2/export.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec2/for.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec2/import.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,29 +17,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="arithmetic.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sec2/arithmetic.go">
+      <file leaf-file-name="import.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sec2/import.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arithmetic_type.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sec2/arithmetic_type.go">
+      <file leaf-file-name="for.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sec2/for.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compare.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sec2/compare.go">
+      <file leaf-file-name="condition.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sec2/condition.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="136">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -68,6 +63,11 @@
         <option value="$PROJECT_DIR$/sec2/arithmetic.go" />
         <option value="$PROJECT_DIR$/sec2/arithmetic_type.go" />
         <option value="$PROJECT_DIR$/sec2/compare.go" />
+        <option value="$PROJECT_DIR$/sec2/abbreviation.go" />
+        <option value="$PROJECT_DIR$/sec2/export.go" />
+        <option value="$PROJECT_DIR$/sec2/import.go" />
+        <option value="$PROJECT_DIR$/sec2/for.go" />
+        <option value="$PROJECT_DIR$/sec2/condition.go" />
       </list>
     </option>
   </component>
@@ -138,7 +138,7 @@
     <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Database" />
@@ -146,7 +146,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3297546" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3297546" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -191,6 +191,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec2/abbreviation.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec2/export.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec2/import.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec2/for.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec2/condition.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
