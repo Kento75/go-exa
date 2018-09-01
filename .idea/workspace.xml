@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d432965a-8c6c-44ae-b8d0-dda11a673a3b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sec9/chdir.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec9/delete.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec9/dir_list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec9/list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec9/list_add.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec9/list_element.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec9/list_len.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec9/mkdir.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec9/rename.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sec9/temp.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec9/format_time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec9/hash.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec9/list_init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec9/now.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec9/sleep.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec9/time.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec9/time_add.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec9/time_add_day.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec9/time_sub.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sec9/weekday.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,30 +24,32 @@
     <session id="1715024718">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.40" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="10" />
+          <entry key="go" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="10" />
+          <entry key="Go" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="1669" />
+          <entry key="go" value="3149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="1669" />
+          <entry key="Go" value="3149" />
         </counts>
       </usages-collector>
     </session>
@@ -55,12 +57,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sec9/list_add.go">
+        <entry file="file://$PROJECT_DIR$/sec9/time_sub.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+            <state relative-caret-position="229">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
               <folding>
-                <element signature="e#14#49#0" expanded="true" />
+                <element signature="e#14#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,17 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sec4/struct_init.go" />
-        <option value="$PROJECT_DIR$/sec4/embed_literal.go" />
-        <option value="$PROJECT_DIR$/sec5/interface.go" />
-        <option value="$PROJECT_DIR$/sec5/assertion.go" />
-        <option value="$PROJECT_DIR$/sec5/assertion2.go" />
-        <option value="$PROJECT_DIR$/sec5/type_switch.go" />
-        <option value="$PROJECT_DIR$/sec6/len.go" />
-        <option value="$PROJECT_DIR$/sec6/index.go" />
-        <option value="$PROJECT_DIR$/sec6/literal.go" />
-        <option value="$PROJECT_DIR$/sec6/slice.go" />
-        <option value="$PROJECT_DIR$/sec6/array_slice.go" />
         <option value="$PROJECT_DIR$/sec6/cap.go" />
         <option value="$PROJECT_DIR$/sec6/string_slice.go" />
         <option value="$PROJECT_DIR$/sec6/append.go" />
@@ -133,6 +124,17 @@
         <option value="$PROJECT_DIR$/sec9/list_len.go" />
         <option value="$PROJECT_DIR$/sec9/list_element.go" />
         <option value="$PROJECT_DIR$/sec9/list_add.go" />
+        <option value="$PROJECT_DIR$/sec9/a/list_init.go" />
+        <option value="$PROJECT_DIR$/sec9/list_init.go" />
+        <option value="$PROJECT_DIR$/sec9/hash.go" />
+        <option value="$PROJECT_DIR$/sec9/now.go" />
+        <option value="$PROJECT_DIR$/sec9/format_time.go" />
+        <option value="$PROJECT_DIR$/sec9/time.go" />
+        <option value="$PROJECT_DIR$/sec9/time_add.go" />
+        <option value="$PROJECT_DIR$/sec9/time_add_day.go" />
+        <option value="$PROJECT_DIR$/sec9/weekday.go" />
+        <option value="$PROJECT_DIR$/sec9/sleep.go" />
+        <option value="$PROJECT_DIR$/sec9/time_sub.go" />
       </list>
     </option>
   </component>
@@ -182,6 +184,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sec9" />
       <recent name="C:\Users\kento\go\go-exa\sec2" />
     </key>
   </component>
@@ -201,7 +204,7 @@
     <frame x="306" y="1105" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579666" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2670713" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -212,8 +215,8 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.27124184" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49848256" visible="true" weight="0.27124184" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5015175" side_tool="true" weight="0.27124184" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -228,76 +231,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sec5/assertion2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec5/assertion.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec5/interface.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec5/type_switch.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec6/len.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec6/slice.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec6/index.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec6/literal.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec6/array_slice.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sec6/cap.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sec6/append.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -527,9 +460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -537,9 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="355">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
-          <folding>
-            <element signature="e#14#37#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -547,9 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#14#43#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -557,9 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#14#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,9 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#14#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -577,9 +495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#14#49#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,18 +502,115 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="229">
           <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec9/list_add.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="e#14#49#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sec9/list_add.go">
+    <entry file="file://$PROJECT_DIR$/sec9/list_init.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        <state relative-caret-position="283">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="e#14#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec9/hash.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+          <folding>
+            <element signature="e#14#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec9/now.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec9/time_add.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec9/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec9/format_time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec9/time_add_day.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec9/weekday.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec9/sleep.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sec9/time_sub.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
